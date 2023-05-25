@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="web.css">
+    <script src="orfer.js"></script>
+    <link rel="Stylesheet" type="text/css" href="order.css">
+</head>
+<body>
+    <div>
+        <div id="navbar"> 
+            <ul id="logo">
+                <li><a href="#">AAAAANI</a></li>
+            </ul> 
+            <ul id="nav">
+                 
+                <li><a href="order.html">order</a></li>
+            </ul>
+        </div>
+
+         <div>
+            <table>
+                <form>
+                    <tr>
+                        <td><label>number of coffee</label></td>
+                        <td><input type="number" id="nocoffee"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>unit price</label></td>
+                        <td><input type="number" id="coffeeprice"></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" id="button" onclick="calculation()">calculate</td>
+                         
+                    </tr>
+
+                    <tr>
+                        <td><label>Total price</label></td>
+                        <td><input type="number" id="total" readonly></td>
+                    </tr>
+                </form>
+            </table>
+         </div>
+    </div>
+</body>
+</html>
